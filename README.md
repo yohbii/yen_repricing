@@ -1,6 +1,6 @@
 # BOJ Tightening and Fragility-Dependent Transmission
 
-This project implements the research design in `plan.md`: a daily-data empirical framework for testing whether BOJ tightening shocks transmit differently when market fragility is high.
+A daily-data empirical framework for testing whether BOJ tightening shocks transmit differently when market fragility is high.
 
 ## What the pipeline produces
 
