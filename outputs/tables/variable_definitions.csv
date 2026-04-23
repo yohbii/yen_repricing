@@ -1,0 +1,10 @@
+variable,definition,source
+fx_ret,-100 * diff(log(USD/JPY)); positive means yen appreciation,Frankfurter ECB-based USD/JPY
+jpy_2y_change,"Daily change in 2Y JGB yield, basis points",Japan Ministry of Finance
+jpy_10y_change,"Daily change in 10Y JGB yield, basis points",Japan Ministry of Finance
+eq_ret,100 * diff(log(EWJ close)); Japan equity proxy in USD,Nasdaq historical API
+eq_ret_local,EWJ USD return minus yen-appreciation return; approximate local-currency Japan equity return,Constructed from EWJ and USD/JPY
+boj_shock,"2Y JGB yield change on BOJ decision dates, zero otherwise",BOJ release dates + MOF JGB yields
+boj_tightening_shock,Positive part of BOJ event-day 2Y JGB yield change; zero for easing/non-tightening events,Constructed
+fragility_pca,"PC1 of standardized differential compression, yen vol, JGB pressure, VIX",Constructed
+fragility_equal,Equal-weight average of standardized fragility components,Constructed

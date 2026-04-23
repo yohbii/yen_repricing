@@ -1,0 +1,6 @@
+metric,value
+low_state_p25_positive_events,-0.5050629347673633
+high_state_p75_positive_events,0.6664665134293126
+n_boj_events,79.0
+n_tightening_events,30.0
+mean_positive_tightening_shock_bp,1.8800000000000006

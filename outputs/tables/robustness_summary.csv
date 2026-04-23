@@ -1,0 +1,4 @@
+model,result,fx_ret,jpy_2y_change,jpy_10y_change,eq_ret
+Linear VAR,Average contemporaneous response to +10bp BOJ shock,1.2056686595960233,9.805814610187817,12.651311584278314,1.7121134341223063
+STVAR,High minus low 20-day cumulative response to +10bp BOJ shock,3.4906526348280646,1.0229364528342053,-0.37544996987706014,-1.083100591940489
+TVAR,High minus low 20-day cumulative response to +10bp BOJ shock,2.090957976698361,0.8846547980613657,-5.504865421057913,0.9654078218533697

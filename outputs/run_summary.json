@@ -1,0 +1,14 @@
+{
+  "sample_start": "2016-05-19",
+  "sample_end": "2026-04-21",
+  "observations": 2371,
+  "selected_lag_bic": 1,
+  "estimated_lag_used": 1,
+  "boj_event_days_mapped": 79,
+  "interaction_lr_pvalue": 0.948531551257357,
+  "stvar_gamma": 1.8888324112993449,
+  "stvar_threshold_c": 0.7395173514645809,
+  "tvar_threshold": 0.29789073871208144,
+  "event_lp_tightening_events": 30,
+  "event_lp_mean_positive_tightening_shock_bp": 1.8800000000000006
+}
